@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 2 bootstrap</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="firstName">Nombre de Pila</label>
+                        <input type="text" class="form-control" id="firstName">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="surname">Apellido</label>
+                        <input type="text" id="surname" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 mt-4">
+                        <label for="userName">Nombre de usuario</label>
+                        <div class="input-group"></div>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                                <input type="text" class="form-control" id="userName" placeholder="Nombre de usuario">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 mt-4">
+                            <label for="Email">Correo Electrónico <span class="text-muted">(opcional)</span></label>
+                            <input class="form-control" type="email" id="Email" placeholder="you@example.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 mt-4">
+                            <label for="speakTo">Habla a</label>
+                            <input type="text" class="form-control" id="speakTo" placeholder="1234 Main St">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 mt-4">
+                            <label for="direction">Dirección 2 <span class="text-muted">(opcional)</span></label>
+                            <input type="text" class="form-control" id="direction" placeholder="Apartamento o suite">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 mt-4">
+                            <label for="country">País</label>
+                            <select name="pais" id="country" class="custom-select">
+                                <option selected>Escoger...</option>
+                                <option value="Arg">Argentina</option>
+                                <option value="Chl">Chile</option>
+                                <option value="Uru">Uruguay</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2 mt-4">
+                            <label for="state">Estado</label>
+                            <select name="estado" id="state" class="custom-select">
+                                <option selected>Escoger...</option>
+                                <option value="BSAS">Buenos Aires</option>
+                                <option value="STG">Santiago</option>
+                                <option value="MON">Montevideo</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2 mt-4">
+                            <label for="cp">Código Postal</label>
+                            <input id="cp" type="number" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="form-group mt-5">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="firstcheck">
+                            <label class="form-check-label" for="firstcheck">
+                                La dirección de envío es la misma que mi dirección de facturación
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="secondcheck">
+                            <label class="form-check-label" for="secondcheck">
+                                Guarde esta dirección para la próxima vez
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
